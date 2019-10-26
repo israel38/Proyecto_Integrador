@@ -1,6 +1,5 @@
-src/synergy_gen/message_data.o: ../src/synergy_gen/message_data.c \
- D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_message.h \
- D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_message_api.h \
+src/main_thread_entry.o: ../src/main_thread_entry.c \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\src\synergy_gen/main_thread.h \
  D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\bsp/bsp_api.h \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\inc\ssp_common_api.h \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\inc\ssp_version.h \
@@ -50,12 +49,55 @@ src/synergy_gen/message_data.o: ../src/synergy_gen/message_data.c \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\inc\framework\el\cm4_gcc\tx_port.h \
  D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\el/tx_user.h \
  D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_cmsis.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\src\synergy_gen/hal_data.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\src\synergy_gen/common_data.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_jpeg_decode.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_jpeg_decode_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_jpeg_decode_cfg.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_jpeg_decode.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_jpeg_decode_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_glcd.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_display_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_el_gx.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_el_gx_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_port.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\el/gx_user.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_display.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_message.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_message_api.h \
  D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework/sf_message_port.h \
- D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework/sf_message_cfg.h
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework/sf_message_cfg.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework/sf_message_payloads.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_touch_panel_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_elc.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_elc_cfg.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_elc_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_cgc.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_cgc_cfg.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_cgc_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_ioport.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_ioport_cfg.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_dtc.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_transfer_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_elc_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_dtc_cfg.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_sci_spi.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_spi_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_transfer_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_icu.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_external_irq_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_external_irq.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_external_irq_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_riic.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_riic_cfg.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_i2c_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h \
+ ../src/gui/guiapp_specifications.h ../src/gui/guiapp_resources.h \
+ ../src/hardware/lcd.h
 
-D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_message.h:
-
-D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_message_api.h:
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\src\synergy_gen/main_thread.h:
 
 D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\bsp/bsp_api.h:
 
@@ -155,6 +197,98 @@ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\
 
 D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_cmsis.h:
 
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\src\synergy_gen/hal_data.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\src\synergy_gen/common_data.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_jpeg_decode.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_jpeg_decode_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_jpeg_decode_cfg.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_jpeg_decode.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_jpeg_decode_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_glcd.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_display_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_el_gx.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_el_gx_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_port.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\el/gx_user.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_display.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_message.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_message_api.h:
+
 D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework/sf_message_port.h:
 
 D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework/sf_message_cfg.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework/sf_message_payloads.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_touch_panel_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_elc.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_elc_cfg.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_elc_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_cgc.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_cgc_cfg.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_cgc_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_ioport.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_ioport_cfg.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_dtc.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_transfer_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_elc_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_dtc_cfg.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_sci_spi.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_spi_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_transfer_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_icu.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_external_irq_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_external_irq.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\api/sf_external_irq_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_riic.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_riic_cfg.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\api/r_i2c_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h:
+
+../src/gui/guiapp_specifications.h:
+
+../src/gui/guiapp_resources.h:
+
+../src/hardware/lcd.h:

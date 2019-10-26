@@ -1,5 +1,11 @@
-src/synergy_gen/pin_data.o: ../src/synergy_gen/pin_data.c \
- D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_ioport.h \
+src/gui/guiapp_specifications.o: ../src/gui/guiapp_specifications.c \
+ ../src/gui/guiapp_resources.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_api.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_port.h \
+ d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\inc\framework\el\cm4_gcc\tx_port.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\el/tx_user.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_cmsis.h \
  D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\bsp/bsp_api.h \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\inc\ssp_common_api.h \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\inc\ssp_version.h \
@@ -44,9 +50,23 @@ src/synergy_gen/pin_data.o: ../src/synergy_gen/pin_data.c \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\src\bsp\mcu\all\bsp_feature.h \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\src\bsp\mcu\all\bsp_mcu_api.h \
  d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\src\bsp\mcu\all\bsp_error_checking.h \
- D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_ioport_cfg.h
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_port.h \
+ D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\el/gx_user.h \
+ ../src/gui/guiapp_specifications.h
 
-D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\driver\instances/r_ioport.h:
+../src/gui/guiapp_resources.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_api.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_port.h:
+
+d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\inc\framework\el\cm4_gcc\tx_port.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\el/tx_user.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/tx_cmsis.h:
 
 D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\bsp/bsp_api.h:
 
@@ -136,4 +156,8 @@ d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\src\bsp\mcu\all\bs
 
 d:\documentos\diplomado\dse_integrator_project_jl\synergy\ssp\src\bsp\mcu\all\bsp_error_checking.h:
 
-D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\driver/r_ioport_cfg.h:
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy\ssp\inc\framework\el/gx_port.h:
+
+D:\Documentos\DIPLOMADO\DSE_Integrator_project_JL\synergy_cfg\ssp_cfg\framework\el/gx_user.h:
+
+../src/gui/guiapp_specifications.h:

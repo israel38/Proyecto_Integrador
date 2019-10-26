@@ -32,7 +32,7 @@ static const timer_on_gpt_cfg_t dsw_timerControl_extend = { .gtioca = {
 		.output_enabled = false, .stop_level = GPT_PIN_LEVEL_LOW }, .gtiocb = {
 		.output_enabled = false, .stop_level = GPT_PIN_LEVEL_LOW } };
 static const timer_cfg_t dsw_timerControl_cfg = { .mode = TIMER_MODE_PERIODIC,
-		.period = 25, .unit = TIMER_UNIT_PERIOD_MSEC, .duty_cycle = 50,
+		.period = 100, .unit = TIMER_UNIT_PERIOD_MSEC, .duty_cycle = 50,
 		.duty_cycle_unit = TIMER_PWM_UNIT_RAW_COUNTS, .channel = 2, .autostart =
 				true, .p_callback = dsw_timerControl_CallBack, .p_context =
 				&dsw_timerControl, .p_extend = &dsw_timerControl_extend,

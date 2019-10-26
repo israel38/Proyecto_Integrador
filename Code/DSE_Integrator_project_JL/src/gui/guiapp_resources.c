@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.2.9                                               */
-/*  Date (dd.mm.yyyy): 14.10.2019   Time (hh:mm): 23:19                        */
+/*  Date (dd.mm.yyyy): 26.10.2019   Time (hh:mm): 12:33                        */
 /*******************************************************************************/
 
 
@@ -19,10 +19,10 @@ GX_CONST GX_COLOR display_1_theme_1_color_table[] =
 {
     0x00000000,
     0x00007bef,
-    0x0000e71c,
+    0x00000000,
     0x00009cce,
     0x000074d5,
-    0x00000000,
+    0x00000660,
     0x0000ffff,
     0x00000017,
     0x00008410,

@@ -132,7 +132,7 @@
 <is_default>TRUE</is_default>
 <enabled>TRUE</enabled>
 <compress>FALSE</compress>
-<colorval>4293059298</colorval>
+<colorval>4278190080</colorval>
 </resource>
 <resource>
 <type>COLOR</type>
@@ -165,7 +165,7 @@
 <is_default>TRUE</is_default>
 <enabled>TRUE</enabled>
 <compress>FALSE</compress>
-<colorval>4278190080</colorval>
+<colorval>4278242304</colorval>
 </resource>
 <resource>
 <type>COLOR</type>

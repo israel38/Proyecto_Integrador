@@ -467,7 +467,7 @@ Synergy Configuration
       Name: dsw_timerControl
       Channel: 2
       Mode: Periodic
-      Period Value: 25
+      Period Value: 100
       Period Unit: Milliseconds
       Duty Cycle Value: 50
       Duty Cycle Unit: Unit Raw Counts
