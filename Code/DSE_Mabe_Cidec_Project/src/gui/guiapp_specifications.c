@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.2.9                                               */
-/*  Date (dd.mm.yyyy): 26.10.2019   Time (hh:mm): 12:33                        */
+/*  Date (dd.mm.yyyy): 30.10.2019   Time (hh:mm): 22:56                        */
 /*******************************************************************************/
 
 
@@ -119,7 +119,7 @@ GX_PROMPT_PROPERTIES window1_PORCENTAJE_1_properties =
 };
 GX_PROMPT_PROPERTIES window1_SW_1_properties =
 {
-    GX_STRING_ID_STRING_3,                   /* string id                      */
+    GX_STRING_ID_STRING_6,                   /* string id                      */
     GX_FONT_ID_PROMPT,                       /* font id                        */
     GX_COLOR_ID_TEXT,                        /* normal text color              */
     GX_COLOR_ID_TEXT                         /* selected text color            */
@@ -133,14 +133,14 @@ GX_PROMPT_PROPERTIES window1_HW_1_properties =
 };
 GX_PROMPT_PROPERTIES window1_NOMBRES_1_properties =
 {
-    GX_STRING_ID_STRING_1,                   /* string id                      */
+    GX_STRING_ID_STRING_4,                   /* string id                      */
     GX_FONT_ID_PROMPT,                       /* font id                        */
     GX_COLOR_ID_TEXT,                        /* normal text color              */
     GX_COLOR_ID_TEXT                         /* selected text color            */
 };
 GX_PROMPT_PROPERTIES window1_NOMBRES_2_properties =
 {
-    GX_STRING_ID_STRING_2,                   /* string id                      */
+    GX_STRING_ID_STRING_5,                   /* string id                      */
     GX_FONT_ID_PROMPT,                       /* font id                        */
     GX_COLOR_ID_TEXT,                        /* normal text color              */
     GX_COLOR_ID_TEXT                         /* selected text color            */
@@ -565,7 +565,7 @@ GX_CONST GX_STUDIO_WIDGET window1_NOMBRE_PROYECTO_define =
     gx_studio_prompt_create,                 /* create function                */
     GX_NULL,                                 /* drawing function override      */
     GX_NULL,                                 /* event function override        */
-    {4, 31, 175, 52},                        /* widget size                    */
+    {8, 18, 179, 39},                        /* widget size                    */
     &window1_CONTROL_2_define,               /* next widget definition         */
     GX_NULL,                                 /* no child widgets               */ 
     offsetof(WINDOW1_CONTROL_BLOCK, window1_NOMBRE_PROYECTO), /* control block */

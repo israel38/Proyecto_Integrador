@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.2.9                                               */
-/*  Date (dd.mm.yyyy): 26.10.2019   Time (hh:mm): 12:33                        */
+/*  Date (dd.mm.yyyy): 30.10.2019   Time (hh:mm): 22:56                        */
 /*******************************************************************************/
 
 
@@ -334,22 +334,25 @@ GX_CONST GX_UBYTE display_1_SW_English[12] = "SW Version:";
 GX_CONST GX_UBYTE display_1_HW_English[12] = "HW Version:";
 GX_CONST GX_UBYTE display_1_CESEQ_English[22] = "CESEQ-C001/CESEQ-P001";
 GX_CONST GX_UBYTE display_1_PROGRAMADORES_English[15] = "Programadores:";
-GX_CONST GX_UBYTE display_1_NOMBRE1_English[19] = "jrcl";
+GX_CONST GX_UBYTE display_1_NOMBRE1_English[19] = "\r";
 GX_CONST GX_UBYTE display_1_SETPOINTS_English[9] = "Setpoint";
 GX_CONST GX_UBYTE display_1_CONTROL_English[22] = "Control Vel. Motor CD";
 GX_CONST GX_UBYTE display_1_PORCENTAJE_English[2] = "%";
 GX_CONST GX_UBYTE display_1_DUTY_English[12] = "Duty cycle:";
 GX_CONST GX_UBYTE display_1_DUTY_CICLE_English[4] = "100";
 GX_CONST GX_UBYTE display_1_SETPOINT_English[5] = "1000";
-GX_CONST GX_UBYTE display_1_VERSION_English[8] = "1926.03";
-GX_CONST GX_UBYTE display_1_NOMBRE2_English[14] = "jrcl";
+GX_CONST GX_UBYTE display_1_VERSION_English[8] = "";
+GX_CONST GX_UBYTE display_1_NOMBRE2_English[14] = "";
 GX_CONST GX_UBYTE display_1_STRING_1_English[5] = "jrcl";
-GX_CONST GX_UBYTE display_1_STRING_2_English[16] = "ial & mcr \r";
+GX_CONST GX_UBYTE display_1_STRING_2_English[16] = "ial & mcr\rr";
 GX_CONST GX_UBYTE display_1_STRING_3_English[5] = "1.43";
+GX_CONST GX_UBYTE display_1_STRING_4_English[5] = "jrcl";
+GX_CONST GX_UBYTE display_1_STRING_5_English[12] = "ial & mcr\r";
+GX_CONST GX_UBYTE display_1_STRING_6_English[5] = "1.43";
 
 /* String Table for display_1 language English                                 */
 
-GX_CONST GX_UBYTE *display_1_English_string_table[20] =
+GX_CONST GX_UBYTE *display_1_English_string_table[23] =
 {
     GX_NULL,
     display_1_NOMBRE_English,
@@ -370,7 +373,10 @@ GX_CONST GX_UBYTE *display_1_English_string_table[20] =
     display_1_NOMBRE2_English,
     display_1_STRING_1_English,
     display_1_STRING_2_English,
-    display_1_STRING_3_English
+    display_1_STRING_3_English,
+    display_1_STRING_4_English,
+    display_1_STRING_5_English,
+    display_1_STRING_6_English
 
 };
 
