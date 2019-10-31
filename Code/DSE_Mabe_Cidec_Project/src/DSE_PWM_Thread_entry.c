@@ -10,7 +10,7 @@ uint16_t dse_dutyCiclePWM[1]      ={0U};
 uint16_t dse_status;
 double dse_setPoint             = 0U;
 uint16_t dse_counter              = 0U;
-uint16_t rpm                      = 0U;
+uint16_t dse_rpm                      = 0U;
 uint16_t dse_dutyCycle = 0;
 uint16_t counter_freq              = 0U;
 uint16_t SendData[4]={0};
@@ -85,8 +85,8 @@ void dsw_timerControl_CallBack(timer_callback_args_t *p_args)
 }
 void dse_function_motor_control(void)
 {
-	rpm = counter_freq * (uint16_t)(75);
-	dse_counter_filtered_freq = dse_function_filter(rpm);
+	dse_rpm =  (uint16_t)(counter_freq * (uint16_t)(75));
+	dse_counter_filtered_freq = dse_function_filter(dse_rpm);
 	dse_errorTotal = (double)(dse_setPoint) - (double)(dse_counter_filtered_freq);
 	dse_dutyCycle = dse_function_pid_control((int16_t)(dse_errorTotal));
 //    SendData[0] = dse_ut/100;

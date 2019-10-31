@@ -1225,7 +1225,7 @@
 <English>TRUE</English>
 <string_table>
 <sort_column>0</sort_column>
-<num_strings>20</num_strings>
+<num_strings>23</num_strings>
 <num_languages>1</num_languages>
 <string_record>
 <id>NOMBRE</id>
@@ -1322,6 +1322,21 @@
 <font>0</font>
 <val>1.42</val>
 </string_record>
+<string_record>
+<id>STRING_4</id>
+<font>0</font>
+<val>jrcl</val>
+</string_record>
+<string_record>
+<id>STRING_5</id>
+<font>0</font>
+<val>ial &amp; mcr</val>
+</string_record>
+<string_record>
+<id>STRING_6</id>
+<font>0</font>
+<val>1.43</val>
+</string_record>
 </string_table>
 <widget_folder>
 <folder_name>default_folder</folder_name>
@@ -1372,10 +1387,10 @@
 <type>prompt</type>
 <app_name>NOMBRE_PROYECTO</app_name>
 <size>
-<left>4</left>
-<top>31</top>
-<right>175</right>
-<bottom>52</bottom>
+<left>8</left>
+<top>18</top>
+<right>179</right>
+<bottom>39</bottom>
 </size>
 <style>268451840</style>
 <allocation>0</allocation>
@@ -1578,7 +1593,7 @@
 <id_name>ID_SW</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
-<string_id>STRING_3</string_id>
+<string_id>STRING_6</string_id>
 <font_id>PROMPT</font_id>
 <normal_text_color>TEXT</normal_text_color>
 <selected_text_color>TEXT</selected_text_color>
@@ -1626,7 +1641,7 @@
 <id_name>ID_WINDOW1_NOMBRES</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
-<string_id>STRING_1</string_id>
+<string_id>STRING_4</string_id>
 <font_id>PROMPT</font_id>
 <normal_text_color>TEXT</normal_text_color>
 <selected_text_color>TEXT</selected_text_color>
@@ -1650,7 +1665,7 @@
 <id_name>ID_WINDOW1_NOMBRES</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
-<string_id>STRING_2</string_id>
+<string_id>STRING_5</string_id>
 <font_id>PROMPT</font_id>
 <normal_text_color>TEXT</normal_text_color>
 <selected_text_color>TEXT</selected_text_color>
