@@ -9048,7 +9048,7 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm
 LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a
 END GROUP
 
-.text           0x00000000    0x43a98
+.text           0x00000000    0x43aa0
                 0x00000000                __ROM_Start = .
  *(.vectors)
  .vectors       0x00000000       0x40 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
@@ -13897,389 +13897,389 @@ END GROUP
                 0x000409f4                display_1_STRING_1_English
  *fill*         0x000409f9        0x3 ff
  .rodata.display_1_STRING_2_English
-                0x000409fc        0x8 ./src/gui/guiapp_resources.o
+                0x000409fc       0x10 ./src/gui/guiapp_resources.o
                 0x000409fc                display_1_STRING_2_English
  .rodata.display_1_STRING_3_English
-                0x00040a04        0x5 ./src/gui/guiapp_resources.o
-                0x00040a04                display_1_STRING_3_English
- *fill*         0x00040a09        0x3 ff
- .rodata        0x00040a0c       0xd9 ./src/gui/guiapp_specifications.o
- *fill*         0x00040ae5        0x3 ff
+                0x00040a0c        0x5 ./src/gui/guiapp_resources.o
+                0x00040a0c                display_1_STRING_3_English
+ *fill*         0x00040a11        0x3 ff
+ .rodata        0x00040a14       0xd9 ./src/gui/guiapp_specifications.o
+ *fill*         0x00040aed        0x3 ff
  .rodata.window1_DUTY_define
-                0x00040ae8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040ae8                window1_DUTY_define
+                0x00040af0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040af0                window1_DUTY_define
  .rodata.window1_SPEED_define
-                0x00040b28       0x40 ./src/gui/guiapp_specifications.o
-                0x00040b28                window1_SPEED_define
+                0x00040b30       0x40 ./src/gui/guiapp_specifications.o
+                0x00040b30                window1_SPEED_define
  .rodata.window1_SETPOINT_define
-                0x00040b68       0x40 ./src/gui/guiapp_specifications.o
-                0x00040b68                window1_SETPOINT_define
+                0x00040b70       0x40 ./src/gui/guiapp_specifications.o
+                0x00040b70                window1_SETPOINT_define
  .rodata.window1_PORCENTAJE_2_define
-                0x00040ba8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040ba8                window1_PORCENTAJE_2_define
+                0x00040bb0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040bb0                window1_PORCENTAJE_2_define
  .rodata.window1_SW_2_define
-                0x00040be8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040be8                window1_SW_2_define
+                0x00040bf0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040bf0                window1_SW_2_define
  .rodata.window1_NOMBRES_2_define
-                0x00040c28       0x40 ./src/gui/guiapp_specifications.o
-                0x00040c28                window1_NOMBRES_2_define
+                0x00040c30       0x40 ./src/gui/guiapp_specifications.o
+                0x00040c30                window1_NOMBRES_2_define
  .rodata.window1_NOMBRES_1_define
-                0x00040c68       0x40 ./src/gui/guiapp_specifications.o
-                0x00040c68                window1_NOMBRES_1_define
+                0x00040c70       0x40 ./src/gui/guiapp_specifications.o
+                0x00040c70                window1_NOMBRES_1_define
  .rodata.window1_HW_1_define
-                0x00040ca8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040ca8                window1_HW_1_define
+                0x00040cb0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040cb0                window1_HW_1_define
  .rodata.window1_SW_1_define
-                0x00040ce8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040ce8                window1_SW_1_define
+                0x00040cf0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040cf0                window1_SW_1_define
  .rodata.window1_PORCENTAJE_1_define
-                0x00040d28       0x40 ./src/gui/guiapp_specifications.o
-                0x00040d28                window1_PORCENTAJE_1_define
+                0x00040d30       0x40 ./src/gui/guiapp_specifications.o
+                0x00040d30                window1_PORCENTAJE_1_define
  .rodata.window1_PORCENTAJE_define
-                0x00040d68       0x40 ./src/gui/guiapp_specifications.o
-                0x00040d68                window1_PORCENTAJE_define
+                0x00040d70       0x40 ./src/gui/guiapp_specifications.o
+                0x00040d70                window1_PORCENTAJE_define
  .rodata.window1_NOMBRES_define
-                0x00040da8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040da8                window1_NOMBRES_define
+                0x00040db0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040db0                window1_NOMBRES_define
  .rodata.window1_HW_define
-                0x00040de8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040de8                window1_HW_define
+                0x00040df0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040df0                window1_HW_define
  .rodata.window1_SW_define
-                0x00040e28       0x40 ./src/gui/guiapp_specifications.o
-                0x00040e28                window1_SW_define
+                0x00040e30       0x40 ./src/gui/guiapp_specifications.o
+                0x00040e30                window1_SW_define
  .rodata.window1_SPEED1_define
-                0x00040e68       0x40 ./src/gui/guiapp_specifications.o
-                0x00040e68                window1_SPEED1_define
+                0x00040e70       0x40 ./src/gui/guiapp_specifications.o
+                0x00040e70                window1_SPEED1_define
  .rodata.window1_CONTROL_2_define
-                0x00040ea8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040ea8                window1_CONTROL_2_define
+                0x00040eb0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040eb0                window1_CONTROL_2_define
  .rodata.window1_NOMBRE_PROYECTO_define
-                0x00040ee8       0x40 ./src/gui/guiapp_specifications.o
-                0x00040ee8                window1_NOMBRE_PROYECTO_define
+                0x00040ef0       0x40 ./src/gui/guiapp_specifications.o
+                0x00040ef0                window1_NOMBRE_PROYECTO_define
  .rodata.window1_CONTROL_define
-                0x00040f28       0x40 ./src/gui/guiapp_specifications.o
-                0x00040f28                window1_CONTROL_define
+                0x00040f30       0x40 ./src/gui/guiapp_specifications.o
+                0x00040f30                window1_CONTROL_define
  .rodata.window1_define
-                0x00040f68       0x40 ./src/gui/guiapp_specifications.o
-                0x00040f68                window1_define
+                0x00040f70       0x40 ./src/gui/guiapp_specifications.o
+                0x00040f70                window1_define
  .rodata.guiapp_widget_table
-                0x00040fa8       0x10 ./src/gui/guiapp_specifications.o
-                0x00040fa8                guiapp_widget_table
- .rodata        0x00040fb8        0x8 ./src/main_thread_entry.o
+                0x00040fb0       0x10 ./src/gui/guiapp_specifications.o
+                0x00040fb0                guiapp_widget_table
+ .rodata        0x00040fc0        0x8 ./src/main_thread_entry.o
  .rodata.g_vfp_offset
-                0x00040fc0        0x4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_schedule.o)
-                0x00040fc0                g_vfp_offset
- .rodata        0x00040fc4       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_arc_draw.o)
- .rodata        0x00040fe4       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_circle_draw.o)
- .rodata        0x00041004       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_ellipse_draw.o)
- .rodata        0x00041024       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_arc_draw.o)
- .rodata        0x00041044       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_circle_draw.o)
- .rodata        0x00041064       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_ellipse_draw.o)
- .rodata        0x00041084       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_draw.o)
- .rodata        0x000410a4       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_fill.o)
- .rodata        0x000410c4       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_draw.o)
- .rodata        0x000410e4       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_fill.o)
- .rodata        0x00041104       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_draw.o)
- .rodata        0x00041124        0x8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_fill.o)
- .rodata        0x0004112c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_simple_pie_fill.o)
- .rodata        0x0004114c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_arc_draw.o)
- .rodata        0x0004116c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_circle_draw.o)
- .rodata        0x0004118c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_ellipse_draw.o)
+                0x00040fc8        0x4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_schedule.o)
+                0x00040fc8                g_vfp_offset
+ .rodata        0x00040fcc       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_arc_draw.o)
+ .rodata        0x00040fec       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_circle_draw.o)
+ .rodata        0x0004100c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_ellipse_draw.o)
+ .rodata        0x0004102c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_arc_draw.o)
+ .rodata        0x0004104c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_circle_draw.o)
+ .rodata        0x0004106c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_ellipse_draw.o)
+ .rodata        0x0004108c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_draw.o)
+ .rodata        0x000410ac       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_fill.o)
+ .rodata        0x000410cc       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_draw.o)
+ .rodata        0x000410ec       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_fill.o)
+ .rodata        0x0004110c       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_draw.o)
+ .rodata        0x0004112c        0x8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_fill.o)
+ .rodata        0x00041134       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_simple_pie_fill.o)
+ .rodata        0x00041154       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_arc_draw.o)
+ .rodata        0x00041174       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_circle_draw.o)
+ .rodata        0x00041194       0x20 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_ellipse_draw.o)
  .rodata.char_34
-                0x000411ac       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x0004120f        0x1 ff
+                0x000411b4       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00041217        0x1 ff
  .rodata.char_35
-                0x00041210       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00041273        0x1 ff
+                0x00041218       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004127b        0x1 ff
  .rodata.char_36
-                0x00041274       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000412d7        0x1 ff
+                0x0004127c       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000412df        0x1 ff
  .rodata.char_50
-                0x000412d8       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000412e0       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_51
-                0x00041344       0xb4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004134c       0xb4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_52
-                0x000413f8       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041400       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_53
-                0x00041464       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004146c       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_54
-                0x000414d0       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000414d8       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_55
-                0x00041548       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041550       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_56
-                0x000415c0       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000415c8       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_57
-                0x00041638       0xa8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041640       0xa8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_58
-                0x000416e0       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000416e8       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_59
-                0x0004174c       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041754       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_73
-                0x000417c4       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00041803        0x1 ff
+                0x000417cc       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004180b        0x1 ff
  .rodata.char_74
-                0x00041804       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004180c       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_75
-                0x0004184c       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041854       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_76
-                0x00041894       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000418e5        0x3 ff
+                0x0004189c       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000418ed        0x3 ff
  .rodata.char_77
-                0x000418e8       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x0004195d        0x3 ff
+                0x000418f0       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00041965        0x3 ff
  .rodata.char_78
-                0x00041960       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041968       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_79
-                0x000419a8       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00041a1d        0x3 ff
+                0x000419b0       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00041a25        0x3 ff
  .rodata.char_30
-                0x00041a20       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00041a83        0x1 ff
+                0x00041a28       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00041a8b        0x1 ff
  .rodata.char_25
-                0x00041a84       0xa8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041a8c       0xa8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_31
-                0x00041b2c       0x4d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00041b79        0x3 ff
+                0x00041b34       0x4d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00041b81        0x3 ff
  .rodata.font_SansPro_Regular_ttf_18_aa
-                0x00041b7c      0x474 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00041b84      0x474 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_33
-                0x00041ff0       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042053        0x1 ff
+                0x00041ff8       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004205b        0x1 ff
  .rodata.char_2a
-                0x00042054       0x24 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004205c       0x24 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_2c
-                0x00042078       0x18 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042080       0x18 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_2d
-                0x00042090        0x5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042095        0x3 ff
+                0x00042098        0x5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004209d        0x3 ff
  .rodata.char_3a
-                0x00042098       0x1b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000420b3        0x1 ff
+                0x000420a0       0x1b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000420bb        0x1 ff
  .rodata.char_3b
-                0x000420b4       0x34 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000420bc       0x34 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_3c
-                0x000420e8       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042127        0x1 ff
+                0x000420f0       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004212f        0x1 ff
  .rodata.char_3d
-                0x00042128       0x2d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042155        0x3 ff
+                0x00042130       0x2d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004215d        0x3 ff
  .rodata.char_3e
-                0x00042158       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042197        0x1 ff
+                0x00042160       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004219f        0x1 ff
  .rodata.char_3f
-                0x00042198       0x54 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000421a0       0x54 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_5a
-                0x000421ec       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000421f4       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_5b
-                0x00042258       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042260       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_5c
-                0x00042298       0x70 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000422a0       0x70 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_5d
-                0x00042308       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042310       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_5e
-                0x00042348       0x31 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042379        0x3 ff
+                0x00042350       0x31 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042381        0x3 ff
  .rodata.char_5f
-                0x0004237c        0x9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042385        0x3 ff
+                0x00042384        0x9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004238d        0x3 ff
  .rodata.char_22
-                0x00042388       0x1e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000423a6        0x2 ff
+                0x00042390       0x1e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000423ae        0x2 ff
  .rodata.char_7a
-                0x000423a8       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000423b0       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_7b
-                0x000423f0       0x50 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000423f8       0x50 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_7c
-                0x00042440       0x24 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042448       0x24 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_7d
-                0x00042464       0x50 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004246c       0x50 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_7e
-                0x000424b4       0x1b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000424cf        0x1 ff
+                0x000424bc       0x1b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000424d7        0x1 ff
  .rodata.char_41
-                0x000424d0       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000424d8       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_42
-                0x00042548       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042550       0x6c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_43
-                0x000425b4       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000425bc       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_44
-                0x0004262c       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042634       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_45
-                0x000426a4       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000426ac       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_46
-                0x00042704       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004270c       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_60
-                0x00042764        0xc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004276c        0xc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_61
-                0x00042770       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000427af        0x1 ff
+                0x00042778       0x3f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000427b7        0x1 ff
  .rodata.char_62
-                0x000427b0       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042825        0x3 ff
+                0x000427b8       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004282d        0x3 ff
  .rodata.char_63
-                0x00042828       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042830       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_64
-                0x00042870       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000428e5        0x3 ff
+                0x00042878       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000428ed        0x3 ff
  .rodata.char_65
-                0x000428e8       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042939        0x3 ff
+                0x000428f0       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042941        0x3 ff
  .rodata.char_66
-                0x0004293c       0x4e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x0004298a        0x2 ff
+                0x00042944       0x4e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042992        0x2 ff
  .rodata.char_67
-                0x0004298c       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042a01        0x3 ff
+                0x00042994       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042a09        0x3 ff
  .rodata.char_68
-                0x00042a04       0x68 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042a0c       0x68 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_69
-                0x00042a6c       0x27 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042a93        0x1 ff
+                0x00042a74       0x27 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042a9b        0x1 ff
  .rodata.char_27
-                0x00042a94        0xf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042aa3        0x1 ff
+                0x00042a9c        0xf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042aab        0x1 ff
  .rodata.char_40
-                0x00042aa4       0xe1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042b85        0x3 ff
+                0x00042aac       0xe1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042b8d        0x3 ff
  .rodata.char_29
-                0x00042b88       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042b90       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_23
-                0x00042bc8       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042c2b        0x1 ff
+                0x00042bd0       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042c33        0x1 ff
  .rodata.char_37
-                0x00042c2c       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042c8f        0x1 ff
+                0x00042c34       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042c97        0x1 ff
  .rodata.char_24
-                0x00042c90       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042c98       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_38
-                0x00042d08       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042d6b        0x1 ff
+                0x00042d10       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042d73        0x1 ff
  .rodata.char_21
-                0x00042d6c       0x27 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042d93        0x1 ff
+                0x00042d74       0x27 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042d9b        0x1 ff
  .rodata.char_39
-                0x00042d94       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00042df7        0x1 ff
+                0x00042d9c       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00042dff        0x1 ff
  .rodata.char_26
-                0x00042df8       0x84 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042e00       0x84 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_47
-                0x00042e7c       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042e84       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_48
-                0x00042ef4       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042efc       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_49
-                0x00042f6c       0x24 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00042f74       0x24 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_70
-                0x00042f90       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00043005        0x3 ff
+                0x00042f98       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004300d        0x3 ff
  .rodata.char_2b
-                0x00043008       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00043059        0x3 ff
+                0x00043010       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00043061        0x3 ff
  .rodata.char_71
-                0x0004305c       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000430d1        0x3 ff
+                0x00043064       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000430d9        0x3 ff
  .rodata.char_2e
-                0x000430d4        0x6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000430da        0x2 ff
+                0x000430dc        0x6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000430e2        0x2 ff
  .rodata.char_72
-                0x000430dc       0x36 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00043112        0x2 ff
+                0x000430e4       0x36 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x0004311a        0x2 ff
  .rodata.char_2f
-                0x00043114       0x70 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004311c       0x70 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_4a
-                0x00043184       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x0004318c       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_4b
-                0x000431e4       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000431ec       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_4c
-                0x0004325c       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00043264       0x60 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_4d
-                0x000432bc       0x84 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000432c4       0x84 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_4e
-                0x00043340       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00043348       0x78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_4f
-                0x000433b8       0x90 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000433c0       0x90 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_28
-                0x00043448       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x00043450       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_6a
-                0x00043488       0x55 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000434dd        0x3 ff
+                0x00043490       0x55 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000434e5        0x3 ff
  .rodata.char_6b
-                0x000434e0       0x68 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000434e8       0x68 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_6c
-                0x00043548       0x27 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x0004356f        0x1 ff
+                0x00043550       0x27 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00043577        0x1 ff
  .rodata.char_6d
-                0x00043570       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000435e5        0x3 ff
+                0x00043578       0x75 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000435ed        0x3 ff
  .rodata.char_6e
-                0x000435e8       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+                0x000435f0       0x48 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
  .rodata.char_6f
-                0x00043630       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x00043681        0x3 ff
+                0x00043638       0x51 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x00043689        0x3 ff
  .rodata.char_32
-                0x00043684       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- *fill*         0x000436e7        0x1 ff
+                0x0004368c       0x63 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ *fill*         0x000436ef        0x1 ff
  .rodata.str1.4
-                0x000436e8       0x5f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_initialize.o)
- *fill*         0x00043747        0x1 ff
+                0x000436f0       0x5f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_initialize.o)
+ *fill*         0x0004374f        0x1 ff
  .rodata.sin_value_table
-                0x00043748      0x168 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sin.o)
+                0x00043750      0x168 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sin.o)
  .rodata.sqrt_table
-                0x000438b0      0x100 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sqrt.o)
+                0x000438b8      0x100 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sqrt.o)
  .rodata.reorder_index
-                0x000439b0       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_jpeg_decode.o)
- .rodata        0x000439f0       0x4c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_png_decode.o)
+                0x000439b8       0x40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_jpeg_decode.o)
+ .rodata        0x000439f8       0x4c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_png_decode.o)
  .rodata.str1.4
-                0x00043a3c       0x30 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_png_decode.o)
+                0x00043a44       0x30 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_png_decode.o)
                                  0x2d (size before relaxing)
-                0x00043a6c                __usb_dev_descriptor_start_fs = .
+                0x00043a74                __usb_dev_descriptor_start_fs = .
  *(.usb_device_desc_fs*)
-                0x00043a6c                __usb_cfg_descriptor_start_fs = .
+                0x00043a74                __usb_cfg_descriptor_start_fs = .
  *(.usb_config_desc_fs*)
-                0x00043a6c                __usb_interface_descriptor_start_fs = .
+                0x00043a74                __usb_interface_descriptor_start_fs = .
  *(.usb_interface_desc_fs*)
-                0x00043a6c                __usb_descriptor_end_fs = .
-                0x00043a6c                __usb_dev_descriptor_start_hs = .
+                0x00043a74                __usb_descriptor_end_fs = .
+                0x00043a74                __usb_dev_descriptor_start_hs = .
  *(.usb_device_desc_hs*)
-                0x00043a6c                __usb_cfg_descriptor_start_hs = .
+                0x00043a74                __usb_cfg_descriptor_start_hs = .
  *(.usb_config_desc_hs*)
-                0x00043a6c                __usb_interface_descriptor_start_hs = .
+                0x00043a74                __usb_interface_descriptor_start_hs = .
  *(.usb_interface_desc_hs*)
-                0x00043a6c                __usb_descriptor_end_hs = .
+                0x00043a74                __usb_descriptor_end_hs = .
  *(.eh_frame*)
- .eh_frame      0x00043a6c        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
- .eh_frame      0x00043a6c       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_nano.a(lib_a-strcmp.o)
- .eh_frame      0x00043a94        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
-                0x00043a98                __ROM_End = .
+ .eh_frame      0x00043a74        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x00043a74       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_nano.a(lib_a-strcmp.o)
+ .eh_frame      0x00043a9c        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+                0x00043aa0                __ROM_End = .
                 0x00000088                __Vectors_Size = (__Vectors_End - __Vectors)
                 0x00000090                __Vector_Info_Size = (__Vector_Info_End - __Vector_Info_Start)
                 0x000001b0                __Lock_Lookup_Size = (__Lock_Lookup_End - __Lock_Lookup_Start)
 
-.glue_7         0x00043a98        0x0
+.glue_7         0x00043aa0        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00043a98        0x0
+.glue_7t        0x00043aa0        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00043a98        0x0
+.vfp11_veneer   0x00043aa0        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00043a98        0x0
+.v4_bx          0x00043aa0        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00043a98        0x0
+.iplt           0x00043aa0        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00043a98                __exidx_start = .
+                0x00043aa0                __exidx_start = .
 
-.ARM.exidx      0x00043a98        0x8
+.ARM.exidx      0x00043aa0        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00043a98        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_divdi3.o)
- .ARM.exidx     0x00043aa0        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00043aa0        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00043aa8        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x00043aa0                __exidx_end = .
-                0x00043aa0                __etext = .
+                0x00043aa8                __exidx_end = .
+                0x00043aa8                __etext = .
 
 .ssp_dtc_vector_table
                 0x1ffe0000      0x1c0
@@ -14288,7 +14288,7 @@ END GROUP
  .ssp_dtc_vector_table
                 0x1ffe0000      0x1c0 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
 
-.data           0x1ffe01c0      0x3c4 load address 0x00043aa0
+.data           0x1ffe01c0      0x3c4 load address 0x00043aa8
                 0x1ffe01c0                __data_start__ = .
  *(vtable)
  *(.data.*)
@@ -14770,7 +14770,7 @@ END GROUP
                 0x1ffe0584                __data_end__ = .
                 0x0000006c                __Lock_Size = (__Lock_End - __Lock_Start)
 
-.igot.plt       0x1ffe0584        0x0 load address 0x00043e64
+.igot.plt       0x1ffe0584        0x0 load address 0x00043e6c
  .igot.plt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
 
 .qspi_flash     0x60000000        0x0
@@ -14778,10 +14778,10 @@ END GROUP
  *(.qspi_flash*)
                 0x60000000                __qspi_flash_end__ = .
                 0x00000000                __qspi_flash_code_size__ = (__qspi_flash_end__ - __qspi_flash_start__)
-                0x00043e64                __qspi_flash_code_addr__ = (__etext + (__data_end__ - __data_start__))
+                0x00043e6c                __qspi_flash_code_addr__ = (__etext + (__data_end__ - __data_start__))
 
 .qspi_non_retentive
-                0x60000000        0x0 load address 0x00043e64
+                0x60000000        0x0 load address 0x00043e6c
                 0x60000000                __qspi_non_retentive_start__ = .
  *(.qspi_non_retentive*)
                 0x60000000                __qspi_non_retentive_end__ = .
@@ -14790,7 +14790,7 @@ END GROUP
                 0x60000000                __qspi_region_start_address__ = __qspi_flash_start__
                 0x64000000                __qspi_region_end_address__ = (__qspi_flash_start__ + __qspi_region_max_size__)
 
-.noinit         0x1ffe0584       0x38 load address 0x00043e64
+.noinit         0x1ffe0584       0x38 load address 0x00043e6c
                 0x1ffe0584                . = ALIGN (0x4)
                 0x1ffe0584                __noinit_start = .
  *(.noinit*)
@@ -16567,7 +16567,7 @@ OUTPUT(DSE_Mabe_Cidec_Project.elf elf32-littlearm)
  .comment       0x00000000       0x71 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_deactivate.o)
  .comment       0x00000000       0x71 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_info_get.o)
 
-.debug_info     0x00000000   0x18fe53
+.debug_info     0x00000000   0x18fe63
  .debug_info    0x00000000     0x346a ./synergy/ssp_supplemental/touch_drivers/touch_panel_i2c_sx8654/touch_panel_i2c_sx8654.o
  .debug_info    0x0000346a      0xfe2 ./synergy/ssp/src/framework/tes/dave2d/dave_blit.o
  .debug_info    0x0000444c     0x1246 ./synergy/ssp/src/framework/tes/dave2d/dave_box.o
@@ -16640,358 +16640,358 @@ OUTPUT(DSE_Mabe_Cidec_Project.elf elf32-littlearm)
  .debug_info    0x000989fd      0x793 ./src/synergy_gen/message_data.o
  .debug_info    0x00099190      0x8ec ./src/synergy_gen/pin_data.o
  .debug_info    0x00099a7c     0x28dd ./src/hardware/lcd_setup.o
- .debug_info    0x0009c359      0x95e ./src/gui/guiapp_resources.o
- .debug_info    0x0009ccb7     0x2290 ./src/gui/guiapp_specifications.o
- .debug_info    0x0009ef47     0x22f9 ./src/DSE_ADC_Thread_entry.o
- .debug_info    0x000a1240     0x1ef1 ./src/DSE_PWM_Thread_entry.o
- .debug_info    0x000a3131     0x1edc ./src/guiapp_event_handlers.o
- .debug_info    0x000a500d     0x4544 ./src/main_thread_entry.o
- .debug_info    0x000a9551      0x603 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_allocate.o)
- .debug_info    0x000a9b54      0x783 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_pool_create.o)
- .debug_info    0x000aa2d7      0x5d5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_pool_delete.o)
- .debug_info    0x000aa8ac      0x5b2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_release.o)
- .debug_info    0x000aae5e      0x66a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_byte_allocate.o)
- .debug_info    0x000ab4c8      0x77c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_byte_pool_create.o)
- .debug_info    0x000abc44      0x181 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_byte_release.o)
- .debug_info    0x000abdc5      0x701 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_create.o)
- .debug_info    0x000ac4c6      0x59d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_delete.o)
- .debug_info    0x000aca63      0x5f3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_get.o)
- .debug_info    0x000ad056      0x573 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_set.o)
- .debug_info    0x000ad5c9      0x693 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_create.o)
- .debug_info    0x000adc5c      0x514 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_delete.o)
- .debug_info    0x000ae170      0x56e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_get.o)
- .debug_info    0x000ae6de      0x537 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_put.o)
- .debug_info    0x000aec15      0x793 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_create.o)
- .debug_info    0x000af3a8      0x58e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_flush.o)
- .debug_info    0x000af936      0x60c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_front_send.o)
- .debug_info    0x000aff42      0x60c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_receive.o)
- .debug_info    0x000b054e      0x60c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_send.o)
- .debug_info    0x000b0b5a      0x545 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_ceiling_put.o)
- .debug_info    0x000b109f      0x702 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_create.o)
- .debug_info    0x000b17a1      0x583 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_delete.o)
- .debug_info    0x000b1d24      0x597 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_get.o)
- .debug_info    0x000b22bb      0x52d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_put.o)
- .debug_info    0x000b27e8      0x766 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_create.o)
- .debug_info    0x000b2f4e      0x502 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_delete.o)
- .debug_info    0x000b3450      0x4ac D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_suspend.o)
- .debug_info    0x000b38fc      0x502 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_terminate.o)
- .debug_info    0x000b3dfe      0x705 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_allocate.o)
- .debug_info    0x000b4503      0x69f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_pool_cleanup.o)
- .debug_info    0x000b4ba2      0x6e6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_pool_create.o)
- .debug_info    0x000b5288      0x6f2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_pool_delete.o)
- .debug_info    0x000b597a      0x6a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_release.o)
- .debug_info    0x000b601b      0x777 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_allocate.o)
- .debug_info    0x000b6792      0x6ac D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_pool_cleanup.o)
- .debug_info    0x000b6e3e      0x6cc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_pool_create.o)
- .debug_info    0x000b750a      0x70f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_pool_search.o)
- .debug_info    0x000b7c19      0x823 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_release.o)
- .debug_info    0x000b843c      0x621 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_create.o)
- .debug_info    0x000b8a5d      0x6ba D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_delete.o)
- .debug_info    0x000b9117      0x715 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_get.o)
- .debug_info    0x000b982c      0x843 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_set.o)
- .debug_info    0x000ba06f      0x923 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_initialize_high_level.o)
- .debug_info    0x000ba992      0x148 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_initialize_kernel_enter.o)
- .debug_info    0x000baada       0xcf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_isr_end.o)
- .debug_info    0x000baba9       0xcf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_isr_start.o)
- .debug_info    0x000bac78      0x5c4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_create.o)
- .debug_info    0x000bb23c      0x6c1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_delete.o)
- .debug_info    0x000bb8fd      0x62b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_get.o)
- .debug_info    0x000bbf28      0x656 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_priority_change.o)
- .debug_info    0x000bc57e      0x826 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_put.o)
- .debug_info    0x000bcda4      0x6b3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_create.o)
- .debug_info    0x000bd457      0x6d1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_flush.o)
- .debug_info    0x000bdb28      0x73c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_front_send.o)
- .debug_info    0x000be264      0x73c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_receive.o)
- .debug_info    0x000be9a0      0x73c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_send.o)
- .debug_info    0x000bf0dc      0x64d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_ceiling_put.o)
- .debug_info    0x000bf729      0x615 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_create.o)
- .debug_info    0x000bfd3e      0x6a0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_delete.o)
- .debug_info    0x000c03de      0x64d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_get.o)
- .debug_info    0x000c0a2b      0x611 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_put.o)
- .debug_info    0x000c103c      0x7bd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_create.o)
- .debug_info    0x000c17f9      0x56b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_delete.o)
- .debug_info    0x000c1d64      0x5fc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_initialize.o)
- .debug_info    0x000c2360      0x562 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_shell_entry.o)
- .debug_info    0x000c28c2      0x5e6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_sleep.o)
- .debug_info    0x000c2ea8      0x586 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_suspend.o)
- .debug_info    0x000c342e      0x793 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_system_preempt_check.o)
- .debug_info    0x000c3bc1      0x8db D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_system_resume.o)
- .debug_info    0x000c449c      0x92b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_system_suspend.o)
- .debug_info    0x000c4dc7      0x702 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_terminate.o)
- .debug_info    0x000c54c9      0x584 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_timeout.o)
- .debug_info    0x000c5a4d      0x2fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_initialize.o)
- .debug_info    0x000c5d48      0x1e8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_system_activate.o)
- .debug_info    0x000c5f30      0x198 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_system_deactivate.o)
- .debug_info    0x000c60c8      0x169 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_time_get.o)
- .debug_info    0x000c6231      0x6ed D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_initialize_low_level.o)
- .debug_info    0x000c691e     0x2fdf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_schedule.o)
- .debug_info    0x000c98fd      0x494 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_stack_build.o)
- .debug_info    0x000c9d91      0x6db D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_interrupt.o)
- .debug_info    0x000ca46c      0x677 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_cleanup.o)
- .debug_info    0x000caae3      0x6cf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_cleanup.o)
- .debug_info    0x000cb1b2      0x610 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_prioritize.o)
- .debug_info    0x000cb7c2      0x6a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_cleanup.o)
- .debug_info    0x000cbe6a      0x64e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_cleanup.o)
- .debug_info    0x000cc4b8      0x55b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_time_slice.o)
- .debug_info    0x000cca13      0x357 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_expiration_process.o)
- .debug_info    0x000ccd6a     0x1213 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_canvas_create.o)
- .debug_info    0x000cdf7d     0x11a7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_color_table_set.o)
- .debug_info    0x000cf124     0x11f3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_create.o)
- .debug_info    0x000d0317     0x11a7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_font_table_set.o)
- .debug_info    0x000d14be     0x11a7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_pixelmap_table_set.o)
- .debug_info    0x000d2665      0x72c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_create.o)
- .debug_info    0x000d2d91      0x6a4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_font_set.o)
- .debug_info    0x000d3435      0x6b8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_text_color_set.o)
- .debug_info    0x000d3aed      0x6bf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_text_set.o)
- .debug_info    0x000d41ac      0x1d6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_active_language_set.o)
- .debug_info    0x000d4382      0x1aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_canvas_refresh.o)
- .debug_info    0x000d452c      0x513 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_dirty_mark.o)
- .debug_info    0x000d4a3f      0x450 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_event_send.o)
- .debug_info    0x000d4e8f      0x1aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_initialize.o)
- .debug_info    0x000d5039      0x1f9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_language_table_set.o)
- .debug_info    0x000d5232      0x2bb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_scroll_appearance_set.o)
- .debug_info    0x000d54ed      0x1aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_start.o)
- .debug_info    0x000d5697      0x5bb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_timer_start.o)
- .debug_info    0x000d5c52      0x120 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_utility_ltoa.o)
- .debug_info    0x000d5d72      0x19e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_utility_rectangle_define.o)
- .debug_info    0x000d5f10      0x1ad D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_utility_rectangle_overlap_detect.o)
- .debug_info    0x000d60bd      0x48b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_allocate.o)
- .debug_info    0x000d6548      0x527 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_attach.o)
- .debug_info    0x000d6a6f      0x541 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_event_process_set.o)
- .debug_info    0x000d6fb0      0x53b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_fill_color_set.o)
- .debug_info    0x000d74eb      0x513 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_show.o)
- .debug_info    0x000d79fe      0x527 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_status_remove.o)
- .debug_info    0x000d7f25      0x7c3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_create.o)
- .debug_info    0x000d86e8      0x747 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_event_process.o)
- .debug_info    0x000d8e2f     0x1509 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_root_create.o)
- .debug_info    0x000da338      0x750 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_wallpaper_set.o)
- .debug_info    0x000daa88     0x11a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_create.o)
- .debug_info    0x000dbc30     0x10dc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_color_table_set.o)
- .debug_info    0x000dcd0c     0x1182 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_create.o)
- .debug_info    0x000dde8e     0x113d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_horizontal_pattern_line_draw.o)
- .debug_info    0x000defcb     0x2136 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixelmap_rotate.o)
- .debug_info    0x000e1101     0x10d6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixel_write.o)
- .debug_info    0x000e21d7     0x113d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_vertical_pattern_line_draw.o)
- .debug_info    0x000e3314     0x1160 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_pixel_blend.o)
- .debug_info    0x000e4474     0x10b8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_setup.o)
- .debug_info    0x000e552c     0x15c7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_arc_draw.o)
- .debug_info    0x000e6af3     0x134b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_circle_draw.o)
- .debug_info    0x000e7e3e     0x13b7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_ellipse_draw.o)
- .debug_info    0x000e91f5     0x16ae D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_line_draw.o)
- .debug_info    0x000ea8a3     0x1b2d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_arc_draw.o)
- .debug_info    0x000ec3d0     0x13e9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_circle_draw.o)
- .debug_info    0x000ed7b9     0x143f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_ellipse_draw.o)
- .debug_info    0x000eebf8     0x1213 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_line_draw.o)
- .debug_info    0x000efe0b     0x1682 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_alphamap_draw.o)
- .debug_info    0x000f148d     0x15a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_draw.o)
- .debug_info    0x000f2a35     0x1570 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_fill.o)
- .debug_info    0x000f3fa5     0x127d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_draw.o)
- .debug_info    0x000f5222     0x1331 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_fill.o)
- .debug_info    0x000f6553     0x12c0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_draw.o)
- .debug_info    0x000f7813     0x135a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_fill.o)
- .debug_info    0x000f8b6d     0x1275 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_glyph_4bpp_draw.o)
- .debug_info    0x000f9de2     0x1192 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_glyph_8bpp_draw.o)
- .debug_info    0x000faf74     0x1271 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_pie_fill.o)
- .debug_info    0x000fc1e5     0x111d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_polygon_draw.o)
- .debug_info    0x000fd302     0x18ec D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_polygon_fill.o)
- .debug_info    0x000febee     0x15a4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_simple_pie_fill.o)
- .debug_info    0x00100192     0x1211 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_simple_wide_line_draw.o)
- .debug_info    0x001013a3     0x18a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_arc_draw.o)
- .debug_info    0x00102c4b     0x11ff D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_circle_draw.o)
- .debug_info    0x00103e4a     0x1227 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_ellipse_draw.o)
- .debug_info    0x00105071     0x1250 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_line_fill.o)
- .debug_info    0x001062c1     0x1294 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_line_points_calculate.o)
- .debug_info    0x00107555     0x10dc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_font_table_set.o)
- .debug_info    0x00108631     0x10dc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_pixelmap_table_set.o)
- .debug_info    0x0010970d      0x6bb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_create.o)
- .debug_info    0x00109dc8      0x61f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_draw.o)
- .debug_info    0x0010a3e7      0x5ec D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_font_set.o)
- .debug_info    0x0010a9d3      0x5fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_color_set.o)
- .debug_info    0x0010afce      0x643 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_draw.o)
- .debug_info    0x0010b611      0x5fa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_get.o)
- .debug_info    0x0010bc0b      0x629 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_set.o)
- .debug_info    0x0010c234     0x1435 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_active_language_set.o)
- .debug_info    0x0010d669     0x141a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_all_canvas_dirty.o)
- .debug_info    0x0010ea83     0x15b8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_canvas_refresh.o)
- .debug_info    0x0011003b     0x153a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_list_trim.o)
- .debug_info    0x00111575      0x46a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_mark.o)
- .debug_info    0x001119df     0x159b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_partial_add.o)
- .debug_info    0x00112f7a       0xf2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_error_process.o)
- .debug_info    0x0011306c      0x991 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_send.o)
- .debug_info    0x001139fd      0x51d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_focus_claim.o)
- .debug_info    0x00113f1a      0xcb8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
- .debug_info    0x00114bd2     0x2599 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_initialize.o)
- .debug_info    0x0011716b     0x1493 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_language_table_set.o)
- .debug_info    0x001185fe      0x521 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_lock.o)
- .debug_info    0x00118b1f      0x997 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_pen_flick_test.o)
- .debug_info    0x001194b6      0x171 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_pen_speed_init.o)
- .debug_info    0x00119627      0x1df D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_pen_speed_update.o)
- .debug_info    0x00119806     0x1553 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_private_string.o)
- .debug_info    0x0011ad59      0x207 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_scroll_appearance_set.o)
- .debug_info    0x0011af60      0x4cd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_start.o)
- .debug_info    0x0011b42d      0x15d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_string_get.o)
- .debug_info    0x0011b58a     0x19a5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_thread_entry.o)
- .debug_info    0x0011cf2f     0x13da D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_expiration.o)
- .debug_info    0x0011e309      0x6ca D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_start.o)
- .debug_info    0x0011e9d3     0x132a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_update.o)
- .debug_info    0x0011fcfd      0x4f3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_unlock.o)
- .debug_info    0x001201f0     0x1414 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_views_update.o)
- .debug_info    0x00121604      0x172 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_ltoa.o)
- .debug_info    0x00121776       0xfb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_cos.o)
- .debug_info    0x00121871      0x125 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sin.o)
- .debug_info    0x00121996      0x115 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sqrt.o)
- .debug_info    0x00121aab      0x13d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_combine.o)
- .debug_info    0x00121be8      0x164 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_define.o)
- .debug_info    0x00121d4c      0x184 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_overlap_detect.o)
- .debug_info    0x00121ed0      0x18d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_point_detect.o)
- .debug_info    0x0012205d      0x148 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_shift.o)
- .debug_info    0x001221a5      0x4b9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_allocate.o)
- .debug_info    0x0012265e      0x4bc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_attach.o)
- .debug_info    0x00122b1a      0x493 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_background_draw.o)
- .debug_info    0x00122fad      0x8c8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_border_draw.o)
- .debug_info    0x00123875      0x447 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_border_width_get.o)
- .debug_info    0x00123cbc     0x11a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_children_draw.o)
- .debug_info    0x00124e64      0x461 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_child_detect.o)
- .debug_info    0x001252c5      0x496 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_client_get.o)
- .debug_info    0x0012575b      0x4d9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_create.o)
- .debug_info    0x00125c34      0x4c0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_detach.o)
- .debug_info    0x001260f4      0x473 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_draw.o)
- .debug_info    0x00126567      0x452 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_draw_set.o)
- .debug_info    0x001269b9      0x678 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_process.o)
- .debug_info    0x00127031      0x45b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_process_set.o)
- .debug_info    0x0012748c      0x45f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_to_parent.o)
- .debug_info    0x001278eb      0x474 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_fill_color_set.o)
- .debug_info    0x00127d5f      0x45d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_focus_next.o)
- .debug_info    0x001281bc      0x45d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_focus_previous.o)
- .debug_info    0x00128619      0x447 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_height_get.o)
- .debug_info    0x00128a60      0x702 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_hide.o)
- .debug_info    0x00129162      0x4be D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_link.o)
- .debug_info    0x00129620      0x486 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_nav_order_initialize.o)
- .debug_info    0x00129aa6      0x71c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_show.o)
- .debug_info    0x0012a1c2      0x443 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_status_remove.o)
- .debug_info    0x0012a605      0x958 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_text_draw.o)
- .debug_info    0x0012af5d      0x496 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_unlink.o)
- .debug_info    0x0012b3f3      0x447 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_width_get.o)
- .debug_info    0x0012b83a      0x7df D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_create.o)
- .debug_info    0x0012c019      0x6a5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_draw.o)
- .debug_info    0x0012c6be      0x8b0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_event_process.o)
- .debug_info    0x0012cf6e     0x14ea D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_root_create.o)
- .debug_info    0x0012e458     0x144e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_root_event_process.o)
- .debug_info    0x0012f8a6      0x691 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_scroll_info_get.o)
- .debug_info    0x0012ff37     0x13f8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_view_update_detect.o)
- .debug_info    0x0013132f      0x6a6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_wallpaper_set.o)
- .debug_info    0x001319d5     0x1381 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_animation_update.o)
- .debug_info    0x00132d56     0x109c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_alpha_set.o)
- .debug_info    0x00133df2     0x1265 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_circle_draw.o)
- .debug_info    0x00135057     0x114d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_composite_create.o)
- .debug_info    0x001361a4     0x1068 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_dirty_mark.o)
- .debug_info    0x0013720c     0x110d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_drawing_complete.o)
- .debug_info    0x00138319     0x13fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_drawing_initiate.o)
- .debug_info    0x00139714     0x132c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_line_draw.o)
- .debug_info    0x0013aa40     0x10f8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_offset_set.o)
- .debug_info    0x0013bb38     0x1190 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_pixel_draw.o)
- .debug_info    0x0013ccc8     0x1213 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_rectangle_draw.o)
- .debug_info    0x0013dedb     0x10c1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_shift.o)
- .debug_info    0x0013ef9c     0x128c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_text_draw.o)
- .debug_info    0x00140228     0x107e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_default.o)
- .debug_info    0x001412a6     0x1149 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_define.o)
- .debug_info    0x001423ef     0x1072 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_get.o)
- .debug_info    0x00143461     0x1064 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_width_set.o)
- .debug_info    0x001444c5     0x1091 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_color_get.o)
- .debug_info    0x00145556     0x10a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_fill_color_set.o)
- .debug_info    0x001465f7     0x108d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_font_set.o)
- .debug_info    0x00147684     0x10a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_line_color_set.o)
- .debug_info    0x00148725     0x146f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_canvas_dirty.o)
- .debug_info    0x00149b94     0x11ca D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_block_move.o)
- .debug_info    0x0014ad5e     0x11ca D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_canvas_copy.o)
- .debug_info    0x0014bf28     0x1192 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_horizontal_line_draw.o)
- .debug_info    0x0014d0ba     0x1c58 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixelmap_blend.o)
- .debug_info    0x0014ed12     0x22ae D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixelmap_draw.o)
- .debug_info    0x00150fc0       0xd5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_row_pitch_get.o)
- .debug_info    0x00151095     0x133c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_simple_line_draw.o)
- .debug_info    0x001523d1     0x1192 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_vertical_line_draw.o)
- .debug_info    0x00153563     0x1235 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_canvas_blend.o)
- .debug_info    0x00154798     0x138c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_glyph_1bit_draw.o)
- .debug_info    0x00155b24     0x1ea9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_horizontal_pixelmap_line_draw.o)
- .debug_info    0x001579cd     0x14d3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_jpeg_draw.o)
- .debug_info    0x00158ea0     0x10be D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_native_color_get.o)
- .debug_info    0x00159f5e     0x1385 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_png_draw.o)
- .debug_info    0x0015b2e3      0x2a5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_arc_clipping_get.o)
- .debug_info    0x0015b588      0x20f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_circle_point_get.o)
- .debug_info    0x0015b797     0x12cf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_filled_circle_draw.o)
- .debug_info    0x0015ca66     0x11e8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_filled_circle_draw.o)
- .debug_info    0x0015dc4e     0x1152 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_horizontal_line_alpha_draw.o)
- .debug_info    0x0015eda0     0x140a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_simple_line_alpha_draw.o)
- .debug_info    0x001601aa     0x1152 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_vertical_line_alpha_draw.o)
- .debug_info    0x001612fc      0x312 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_create.o)
- .debug_info    0x0016160e     0x22d6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_jpeg_decode.o)
- .debug_info    0x001638e4      0x7b2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_start.o)
- .debug_info    0x00164096     0x1463 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_all_views_free.o)
- .debug_info    0x001654f9     0x1548 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_dispatch.o)
- .debug_info    0x00166a41      0x9bf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_fold.o)
- .debug_info    0x00167400      0x4fd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_input_release.o)
- .debug_info    0x001678fd     0x14d1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_root_view_add.o)
- .debug_info    0x00168dce      0x3e9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_string_width_get.o)
- .debug_info    0x001691b7     0x141e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_stop.o)
- .debug_info    0x0016a5d5     0x143a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_top_root_find.o)
- .debug_info    0x0016ba0f      0x4a6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_top_widget_find.o)
- .debug_info    0x0016beb5      0x183 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_views_free.o)
- .debug_info    0x0016c038      0x6bc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_view_add.o)
- .debug_info    0x0016c6f4      0x676 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_view_fold.o)
- .debug_info    0x0016cd6a     0x147b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_view_split.o)
- .debug_info    0x0016e1e5      0x16f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_utf8_string_character_get.o)
- .debug_info    0x0016e354      0x45e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_children_event_process.o)
- .debug_info    0x0016e7b2      0x474 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_child_focus_assign.o)
- .debug_info    0x0016ec26      0x719 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_clipping_update.o)
- .debug_info    0x0016f33f      0x48e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_generate.o)
- .debug_info    0x0016f7cd      0x7f6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_front_move.o)
- .debug_info    0x0016ffc3      0x82c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_shift.o)
- .debug_info    0x001707ef     0x148a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_background_draw.o)
- .debug_info    0x00171c79      0xca6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_client_scroll.o)
- .debug_info    0x0017291f      0xb40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_scrollbar_find.o)
- .debug_info    0x0017345f     0x13fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_animation_complete.o)
- .debug_info    0x0017485a     0x13eb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_animation_stop.o)
- .debug_info    0x00175c45      0x3a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_brush_default.o)
- .debug_info    0x00175fed      0x3cf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_brush_define.o)
- .debug_info    0x001763bc     0x12be D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_glyphs_draw.o)
- .debug_info    0x0017767a     0x11de D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_pixelmap_draw.o)
- .debug_info    0x00178858     0x111d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_pixelmap_tile.o)
- .debug_info    0x00179975     0x1091 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_font_get.o)
- .debug_info    0x0017aa06     0x1082 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_pixelmap_get.o)
- .debug_info    0x0017ba88      0x5e4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_dither.o)
- .debug_info    0x0017c06c      0x48b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_image_decode.o)
- .debug_info    0x0017c4f7      0xb04 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_pixel_read_callback_set.o)
- .debug_info    0x0017cffb      0x619 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_pixel_write_callback_set.o)
- .debug_info    0x0017d614     0x1a78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_png_decode.o)
- .debug_info    0x0017f08c      0x83b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_rle_encode.o)
- .debug_info    0x0017f8c7      0xbab D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_scrollbar_reset.o)
- .debug_info    0x00180472      0xc39 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_scrollbar_size_update.o)
- .debug_info    0x001810ab      0xaec D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_scrollbar_thumb_position_calculate.o)
- .debug_info    0x00181b97     0x1226 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_animation_free.o)
- .debug_info    0x00182dbd      0x1a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_free_view_get.o)
- .debug_info    0x00182f5e     0x1267 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_block_move.o)
- .debug_info    0x001841c5     0x1452 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_canvas_get.o)
- .debug_info    0x00185617      0x6ed D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_child_clipping_update.o)
- .debug_info    0x00185d04      0x453 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_context_fill_set.o)
- .debug_info    0x00186157      0x57e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_delete.o)
- .debug_info    0x001866d5      0x46f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_free.o)
- .debug_info    0x00186b44     0x10f8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_pixelmap_get.o)
- .debug_info    0x00187c3c     0x15fa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_resize.o)
- .debug_info    0x00189236      0x790 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_scroll_shift.o)
- .debug_info    0x001899c6     0x13e1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_root_find.o)
- .debug_info    0x0018ada7     0x1166 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_block_move.o)
- .debug_info    0x0018bf0d      0x390 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_nearest_palette_color_get.o)
- .debug_info    0x0018c29d     0x10fd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_list_remove.o)
- .debug_info    0x0018d39a      0x9bd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_remove.o)
- .debug_info    0x0018dd57      0x157 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_compare.o)
- .debug_info    0x0018deae      0x157 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_inside_detect.o)
- .debug_info    0x0018e005      0x701 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_delete.o)
- .debug_info    0x0018e706      0x50b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_identify.o)
- .debug_info    0x0018ec11      0x5e0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_resume.o)
- .debug_info    0x0018f1f1      0x2aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_activate.o)
- .debug_info    0x0018f49b      0x366 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_create.o)
- .debug_info    0x0018f801      0x300 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_deactivate.o)
- .debug_info    0x0018fb01      0x352 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_info_get.o)
+ .debug_info    0x0009c359      0x96e ./src/gui/guiapp_resources.o
+ .debug_info    0x0009ccc7     0x2290 ./src/gui/guiapp_specifications.o
+ .debug_info    0x0009ef57     0x22f9 ./src/DSE_ADC_Thread_entry.o
+ .debug_info    0x000a1250     0x1ef1 ./src/DSE_PWM_Thread_entry.o
+ .debug_info    0x000a3141     0x1edc ./src/guiapp_event_handlers.o
+ .debug_info    0x000a501d     0x4544 ./src/main_thread_entry.o
+ .debug_info    0x000a9561      0x603 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_allocate.o)
+ .debug_info    0x000a9b64      0x783 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_pool_create.o)
+ .debug_info    0x000aa2e7      0x5d5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_pool_delete.o)
+ .debug_info    0x000aa8bc      0x5b2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_block_release.o)
+ .debug_info    0x000aae6e      0x66a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_byte_allocate.o)
+ .debug_info    0x000ab4d8      0x77c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_byte_pool_create.o)
+ .debug_info    0x000abc54      0x181 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_byte_release.o)
+ .debug_info    0x000abdd5      0x701 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_create.o)
+ .debug_info    0x000ac4d6      0x59d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_delete.o)
+ .debug_info    0x000aca73      0x5f3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_get.o)
+ .debug_info    0x000ad066      0x573 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_event_flags_set.o)
+ .debug_info    0x000ad5d9      0x693 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_create.o)
+ .debug_info    0x000adc6c      0x514 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_delete.o)
+ .debug_info    0x000ae180      0x56e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_get.o)
+ .debug_info    0x000ae6ee      0x537 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_mutex_put.o)
+ .debug_info    0x000aec25      0x793 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_create.o)
+ .debug_info    0x000af3b8      0x58e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_flush.o)
+ .debug_info    0x000af946      0x60c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_front_send.o)
+ .debug_info    0x000aff52      0x60c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_receive.o)
+ .debug_info    0x000b055e      0x60c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_queue_send.o)
+ .debug_info    0x000b0b6a      0x545 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_ceiling_put.o)
+ .debug_info    0x000b10af      0x702 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_create.o)
+ .debug_info    0x000b17b1      0x583 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_delete.o)
+ .debug_info    0x000b1d34      0x597 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_get.o)
+ .debug_info    0x000b22cb      0x52d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_semaphore_put.o)
+ .debug_info    0x000b27f8      0x766 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_create.o)
+ .debug_info    0x000b2f5e      0x502 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_delete.o)
+ .debug_info    0x000b3460      0x4ac D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_suspend.o)
+ .debug_info    0x000b390c      0x502 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(txe_thread_terminate.o)
+ .debug_info    0x000b3e0e      0x705 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_allocate.o)
+ .debug_info    0x000b4513      0x69f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_pool_cleanup.o)
+ .debug_info    0x000b4bb2      0x6e6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_pool_create.o)
+ .debug_info    0x000b5298      0x6f2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_pool_delete.o)
+ .debug_info    0x000b598a      0x6a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_block_release.o)
+ .debug_info    0x000b602b      0x777 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_allocate.o)
+ .debug_info    0x000b67a2      0x6ac D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_pool_cleanup.o)
+ .debug_info    0x000b6e4e      0x6cc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_pool_create.o)
+ .debug_info    0x000b751a      0x70f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_pool_search.o)
+ .debug_info    0x000b7c29      0x823 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_byte_release.o)
+ .debug_info    0x000b844c      0x621 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_create.o)
+ .debug_info    0x000b8a6d      0x6ba D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_delete.o)
+ .debug_info    0x000b9127      0x715 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_get.o)
+ .debug_info    0x000b983c      0x843 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_set.o)
+ .debug_info    0x000ba07f      0x923 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_initialize_high_level.o)
+ .debug_info    0x000ba9a2      0x148 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_initialize_kernel_enter.o)
+ .debug_info    0x000baaea       0xcf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_isr_end.o)
+ .debug_info    0x000babb9       0xcf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_isr_start.o)
+ .debug_info    0x000bac88      0x5c4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_create.o)
+ .debug_info    0x000bb24c      0x6c1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_delete.o)
+ .debug_info    0x000bb90d      0x62b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_get.o)
+ .debug_info    0x000bbf38      0x656 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_priority_change.o)
+ .debug_info    0x000bc58e      0x826 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_put.o)
+ .debug_info    0x000bcdb4      0x6b3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_create.o)
+ .debug_info    0x000bd467      0x6d1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_flush.o)
+ .debug_info    0x000bdb38      0x73c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_front_send.o)
+ .debug_info    0x000be274      0x73c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_receive.o)
+ .debug_info    0x000be9b0      0x73c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_send.o)
+ .debug_info    0x000bf0ec      0x64d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_ceiling_put.o)
+ .debug_info    0x000bf739      0x615 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_create.o)
+ .debug_info    0x000bfd4e      0x6a0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_delete.o)
+ .debug_info    0x000c03ee      0x64d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_get.o)
+ .debug_info    0x000c0a3b      0x611 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_put.o)
+ .debug_info    0x000c104c      0x7bd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_create.o)
+ .debug_info    0x000c1809      0x56b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_delete.o)
+ .debug_info    0x000c1d74      0x5fc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_initialize.o)
+ .debug_info    0x000c2370      0x562 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_shell_entry.o)
+ .debug_info    0x000c28d2      0x5e6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_sleep.o)
+ .debug_info    0x000c2eb8      0x586 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_suspend.o)
+ .debug_info    0x000c343e      0x793 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_system_preempt_check.o)
+ .debug_info    0x000c3bd1      0x8db D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_system_resume.o)
+ .debug_info    0x000c44ac      0x92b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_system_suspend.o)
+ .debug_info    0x000c4dd7      0x702 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_terminate.o)
+ .debug_info    0x000c54d9      0x584 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_timeout.o)
+ .debug_info    0x000c5a5d      0x2fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_initialize.o)
+ .debug_info    0x000c5d58      0x1e8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_system_activate.o)
+ .debug_info    0x000c5f40      0x198 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_system_deactivate.o)
+ .debug_info    0x000c60d8      0x169 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_time_get.o)
+ .debug_info    0x000c6241      0x6ed D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_initialize_low_level.o)
+ .debug_info    0x000c692e     0x2fdf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_schedule.o)
+ .debug_info    0x000c990d      0x494 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_stack_build.o)
+ .debug_info    0x000c9da1      0x6db D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_interrupt.o)
+ .debug_info    0x000ca47c      0x677 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_event_flags_cleanup.o)
+ .debug_info    0x000caaf3      0x6cf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_cleanup.o)
+ .debug_info    0x000cb1c2      0x610 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_mutex_prioritize.o)
+ .debug_info    0x000cb7d2      0x6a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_cleanup.o)
+ .debug_info    0x000cbe7a      0x64e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_semaphore_cleanup.o)
+ .debug_info    0x000cc4c8      0x55b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_time_slice.o)
+ .debug_info    0x000cca23      0x357 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_expiration_process.o)
+ .debug_info    0x000ccd7a     0x1213 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_canvas_create.o)
+ .debug_info    0x000cdf8d     0x11a7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_color_table_set.o)
+ .debug_info    0x000cf134     0x11f3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_create.o)
+ .debug_info    0x000d0327     0x11a7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_font_table_set.o)
+ .debug_info    0x000d14ce     0x11a7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_display_pixelmap_table_set.o)
+ .debug_info    0x000d2675      0x72c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_create.o)
+ .debug_info    0x000d2da1      0x6a4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_font_set.o)
+ .debug_info    0x000d3445      0x6b8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_text_color_set.o)
+ .debug_info    0x000d3afd      0x6bf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_prompt_text_set.o)
+ .debug_info    0x000d41bc      0x1d6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_active_language_set.o)
+ .debug_info    0x000d4392      0x1aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_canvas_refresh.o)
+ .debug_info    0x000d453c      0x513 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_dirty_mark.o)
+ .debug_info    0x000d4a4f      0x450 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_event_send.o)
+ .debug_info    0x000d4e9f      0x1aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_initialize.o)
+ .debug_info    0x000d5049      0x1f9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_language_table_set.o)
+ .debug_info    0x000d5242      0x2bb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_scroll_appearance_set.o)
+ .debug_info    0x000d54fd      0x1aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_start.o)
+ .debug_info    0x000d56a7      0x5bb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_system_timer_start.o)
+ .debug_info    0x000d5c62      0x120 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_utility_ltoa.o)
+ .debug_info    0x000d5d82      0x19e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_utility_rectangle_define.o)
+ .debug_info    0x000d5f20      0x1ad D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_utility_rectangle_overlap_detect.o)
+ .debug_info    0x000d60cd      0x48b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_allocate.o)
+ .debug_info    0x000d6558      0x527 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_attach.o)
+ .debug_info    0x000d6a7f      0x541 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_event_process_set.o)
+ .debug_info    0x000d6fc0      0x53b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_fill_color_set.o)
+ .debug_info    0x000d74fb      0x513 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_show.o)
+ .debug_info    0x000d7a0e      0x527 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_widget_status_remove.o)
+ .debug_info    0x000d7f35      0x7c3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_create.o)
+ .debug_info    0x000d86f8      0x747 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_event_process.o)
+ .debug_info    0x000d8e3f     0x1509 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_root_create.o)
+ .debug_info    0x000da348      0x750 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gxe_window_wallpaper_set.o)
+ .debug_info    0x000daa98     0x11a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_create.o)
+ .debug_info    0x000dbc40     0x10dc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_color_table_set.o)
+ .debug_info    0x000dcd1c     0x1182 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_create.o)
+ .debug_info    0x000dde9e     0x113d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_horizontal_pattern_line_draw.o)
+ .debug_info    0x000defdb     0x2136 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixelmap_rotate.o)
+ .debug_info    0x000e1111     0x10d6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixel_write.o)
+ .debug_info    0x000e21e7     0x113d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_vertical_pattern_line_draw.o)
+ .debug_info    0x000e3324     0x1160 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_pixel_blend.o)
+ .debug_info    0x000e4484     0x10b8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_setup.o)
+ .debug_info    0x000e553c     0x15c7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_arc_draw.o)
+ .debug_info    0x000e6b03     0x134b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_circle_draw.o)
+ .debug_info    0x000e7e4e     0x13b7 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_ellipse_draw.o)
+ .debug_info    0x000e9205     0x16ae D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_line_draw.o)
+ .debug_info    0x000ea8b3     0x1b2d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_arc_draw.o)
+ .debug_info    0x000ec3e0     0x13e9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_circle_draw.o)
+ .debug_info    0x000ed7c9     0x143f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_ellipse_draw.o)
+ .debug_info    0x000eec08     0x1213 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_wide_line_draw.o)
+ .debug_info    0x000efe1b     0x1682 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_alphamap_draw.o)
+ .debug_info    0x000f149d     0x15a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_draw.o)
+ .debug_info    0x000f2a45     0x1570 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_arc_fill.o)
+ .debug_info    0x000f3fb5     0x127d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_draw.o)
+ .debug_info    0x000f5232     0x1331 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_circle_fill.o)
+ .debug_info    0x000f6563     0x12c0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_draw.o)
+ .debug_info    0x000f7823     0x135a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_ellipse_fill.o)
+ .debug_info    0x000f8b7d     0x1275 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_glyph_4bpp_draw.o)
+ .debug_info    0x000f9df2     0x1192 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_glyph_8bpp_draw.o)
+ .debug_info    0x000faf84     0x1271 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_pie_fill.o)
+ .debug_info    0x000fc1f5     0x111d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_polygon_draw.o)
+ .debug_info    0x000fd312     0x18ec D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_polygon_fill.o)
+ .debug_info    0x000febfe     0x15a4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_simple_pie_fill.o)
+ .debug_info    0x001001a2     0x1211 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_simple_wide_line_draw.o)
+ .debug_info    0x001013b3     0x18a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_arc_draw.o)
+ .debug_info    0x00102c5b     0x11ff D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_circle_draw.o)
+ .debug_info    0x00103e5a     0x1227 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_ellipse_draw.o)
+ .debug_info    0x00105081     0x1250 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_line_fill.o)
+ .debug_info    0x001062d1     0x1294 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_wide_line_points_calculate.o)
+ .debug_info    0x00107565     0x10dc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_font_table_set.o)
+ .debug_info    0x00108641     0x10dc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_pixelmap_table_set.o)
+ .debug_info    0x0010971d      0x6bb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_create.o)
+ .debug_info    0x00109dd8      0x61f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_draw.o)
+ .debug_info    0x0010a3f7      0x5ec D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_font_set.o)
+ .debug_info    0x0010a9e3      0x5fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_color_set.o)
+ .debug_info    0x0010afde      0x643 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_draw.o)
+ .debug_info    0x0010b621      0x5fa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_get.o)
+ .debug_info    0x0010bc1b      0x629 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_prompt_text_set.o)
+ .debug_info    0x0010c244     0x1435 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_active_language_set.o)
+ .debug_info    0x0010d679     0x141a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_all_canvas_dirty.o)
+ .debug_info    0x0010ea93     0x15b8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_canvas_refresh.o)
+ .debug_info    0x0011004b     0x153a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_list_trim.o)
+ .debug_info    0x00111585      0x46a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_mark.o)
+ .debug_info    0x001119ef     0x159b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_partial_add.o)
+ .debug_info    0x00112f8a       0xf2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_error_process.o)
+ .debug_info    0x0011307c      0x991 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_send.o)
+ .debug_info    0x00113a0d      0x51d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_focus_claim.o)
+ .debug_info    0x00113f2a      0xcb8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_font_8bpp.o)
+ .debug_info    0x00114be2     0x2599 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_initialize.o)
+ .debug_info    0x0011717b     0x1493 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_language_table_set.o)
+ .debug_info    0x0011860e      0x521 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_lock.o)
+ .debug_info    0x00118b2f      0x997 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_pen_flick_test.o)
+ .debug_info    0x001194c6      0x171 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_pen_speed_init.o)
+ .debug_info    0x00119637      0x1df D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_pen_speed_update.o)
+ .debug_info    0x00119816     0x1553 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_private_string.o)
+ .debug_info    0x0011ad69      0x207 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_scroll_appearance_set.o)
+ .debug_info    0x0011af70      0x4cd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_start.o)
+ .debug_info    0x0011b43d      0x15d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_string_get.o)
+ .debug_info    0x0011b59a     0x19a5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_thread_entry.o)
+ .debug_info    0x0011cf3f     0x13da D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_expiration.o)
+ .debug_info    0x0011e319      0x6ca D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_start.o)
+ .debug_info    0x0011e9e3     0x132a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_update.o)
+ .debug_info    0x0011fd0d      0x4f3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_unlock.o)
+ .debug_info    0x00120200     0x1414 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_views_update.o)
+ .debug_info    0x00121614      0x172 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_ltoa.o)
+ .debug_info    0x00121786       0xfb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_cos.o)
+ .debug_info    0x00121881      0x125 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sin.o)
+ .debug_info    0x001219a6      0x115 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_math_sqrt.o)
+ .debug_info    0x00121abb      0x13d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_combine.o)
+ .debug_info    0x00121bf8      0x164 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_define.o)
+ .debug_info    0x00121d5c      0x184 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_overlap_detect.o)
+ .debug_info    0x00121ee0      0x18d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_point_detect.o)
+ .debug_info    0x0012206d      0x148 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_shift.o)
+ .debug_info    0x001221b5      0x4b9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_allocate.o)
+ .debug_info    0x0012266e      0x4bc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_attach.o)
+ .debug_info    0x00122b2a      0x493 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_background_draw.o)
+ .debug_info    0x00122fbd      0x8c8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_border_draw.o)
+ .debug_info    0x00123885      0x447 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_border_width_get.o)
+ .debug_info    0x00123ccc     0x11a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_children_draw.o)
+ .debug_info    0x00124e74      0x461 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_child_detect.o)
+ .debug_info    0x001252d5      0x496 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_client_get.o)
+ .debug_info    0x0012576b      0x4d9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_create.o)
+ .debug_info    0x00125c44      0x4c0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_detach.o)
+ .debug_info    0x00126104      0x473 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_draw.o)
+ .debug_info    0x00126577      0x452 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_draw_set.o)
+ .debug_info    0x001269c9      0x678 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_process.o)
+ .debug_info    0x00127041      0x45b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_process_set.o)
+ .debug_info    0x0012749c      0x45f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_to_parent.o)
+ .debug_info    0x001278fb      0x474 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_fill_color_set.o)
+ .debug_info    0x00127d6f      0x45d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_focus_next.o)
+ .debug_info    0x001281cc      0x45d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_focus_previous.o)
+ .debug_info    0x00128629      0x447 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_height_get.o)
+ .debug_info    0x00128a70      0x702 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_hide.o)
+ .debug_info    0x00129172      0x4be D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_link.o)
+ .debug_info    0x00129630      0x486 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_nav_order_initialize.o)
+ .debug_info    0x00129ab6      0x71c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_show.o)
+ .debug_info    0x0012a1d2      0x443 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_status_remove.o)
+ .debug_info    0x0012a615      0x958 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_text_draw.o)
+ .debug_info    0x0012af6d      0x496 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_unlink.o)
+ .debug_info    0x0012b403      0x447 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_width_get.o)
+ .debug_info    0x0012b84a      0x7df D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_create.o)
+ .debug_info    0x0012c029      0x6a5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_draw.o)
+ .debug_info    0x0012c6ce      0x8b0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_event_process.o)
+ .debug_info    0x0012cf7e     0x14ea D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_root_create.o)
+ .debug_info    0x0012e468     0x144e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_root_event_process.o)
+ .debug_info    0x0012f8b6      0x691 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_scroll_info_get.o)
+ .debug_info    0x0012ff47     0x13f8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_view_update_detect.o)
+ .debug_info    0x0013133f      0x6a6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_wallpaper_set.o)
+ .debug_info    0x001319e5     0x1381 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_animation_update.o)
+ .debug_info    0x00132d66     0x109c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_alpha_set.o)
+ .debug_info    0x00133e02     0x1265 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_circle_draw.o)
+ .debug_info    0x00135067     0x114d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_composite_create.o)
+ .debug_info    0x001361b4     0x1068 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_dirty_mark.o)
+ .debug_info    0x0013721c     0x110d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_drawing_complete.o)
+ .debug_info    0x00138329     0x13fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_drawing_initiate.o)
+ .debug_info    0x00139724     0x132c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_line_draw.o)
+ .debug_info    0x0013aa50     0x10f8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_offset_set.o)
+ .debug_info    0x0013bb48     0x1190 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_pixel_draw.o)
+ .debug_info    0x0013ccd8     0x1213 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_rectangle_draw.o)
+ .debug_info    0x0013deeb     0x10c1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_shift.o)
+ .debug_info    0x0013efac     0x128c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_text_draw.o)
+ .debug_info    0x00140238     0x107e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_default.o)
+ .debug_info    0x001412b6     0x1149 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_define.o)
+ .debug_info    0x001423ff     0x1072 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_get.o)
+ .debug_info    0x00143471     0x1064 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_brush_width_set.o)
+ .debug_info    0x001444d5     0x1091 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_color_get.o)
+ .debug_info    0x00145566     0x10a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_fill_color_set.o)
+ .debug_info    0x00146607     0x108d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_font_set.o)
+ .debug_info    0x00147694     0x10a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_line_color_set.o)
+ .debug_info    0x00148735     0x146f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_canvas_dirty.o)
+ .debug_info    0x00149ba4     0x11ca D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_block_move.o)
+ .debug_info    0x0014ad6e     0x11ca D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_canvas_copy.o)
+ .debug_info    0x0014bf38     0x1192 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_horizontal_line_draw.o)
+ .debug_info    0x0014d0ca     0x1c58 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixelmap_blend.o)
+ .debug_info    0x0014ed22     0x22ae D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_pixelmap_draw.o)
+ .debug_info    0x00150fd0       0xd5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_row_pitch_get.o)
+ .debug_info    0x001510a5     0x133c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_simple_line_draw.o)
+ .debug_info    0x001523e1     0x1192 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_16bpp_vertical_line_draw.o)
+ .debug_info    0x00153573     0x1235 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_canvas_blend.o)
+ .debug_info    0x001547a8     0x138c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_glyph_1bit_draw.o)
+ .debug_info    0x00155b34     0x1ea9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_horizontal_pixelmap_line_draw.o)
+ .debug_info    0x001579dd     0x14d3 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_jpeg_draw.o)
+ .debug_info    0x00158eb0     0x10be D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_native_color_get.o)
+ .debug_info    0x00159f6e     0x1385 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_565rgb_png_draw.o)
+ .debug_info    0x0015b2f3      0x2a5 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_arc_clipping_get.o)
+ .debug_info    0x0015b598      0x20f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_circle_point_get.o)
+ .debug_info    0x0015b7a7     0x12cf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_aliased_filled_circle_draw.o)
+ .debug_info    0x0015ca76     0x11e8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_generic_filled_circle_draw.o)
+ .debug_info    0x0015dc5e     0x1152 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_horizontal_line_alpha_draw.o)
+ .debug_info    0x0015edb0     0x140a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_simple_line_alpha_draw.o)
+ .debug_info    0x001601ba     0x1152 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_display_driver_vertical_line_alpha_draw.o)
+ .debug_info    0x0016130c      0x312 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_create.o)
+ .debug_info    0x0016161e     0x22d6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_jpeg_decode.o)
+ .debug_info    0x001638f4      0x7b2 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_start.o)
+ .debug_info    0x001640a6     0x1463 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_all_views_free.o)
+ .debug_info    0x00165509     0x1548 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_dispatch.o)
+ .debug_info    0x00166a51      0x9bf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_fold.o)
+ .debug_info    0x00167410      0x4fd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_input_release.o)
+ .debug_info    0x0016790d     0x14d1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_root_view_add.o)
+ .debug_info    0x00168dde      0x3e9 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_string_width_get.o)
+ .debug_info    0x001691c7     0x141e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_timer_stop.o)
+ .debug_info    0x0016a5e5     0x143a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_top_root_find.o)
+ .debug_info    0x0016ba1f      0x4a6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_top_widget_find.o)
+ .debug_info    0x0016bec5      0x183 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_views_free.o)
+ .debug_info    0x0016c048      0x6bc D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_view_add.o)
+ .debug_info    0x0016c704      0x676 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_view_fold.o)
+ .debug_info    0x0016cd7a     0x147b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_view_split.o)
+ .debug_info    0x0016e1f5      0x16f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_utf8_string_character_get.o)
+ .debug_info    0x0016e364      0x45e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_children_event_process.o)
+ .debug_info    0x0016e7c2      0x474 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_child_focus_assign.o)
+ .debug_info    0x0016ec36      0x719 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_clipping_update.o)
+ .debug_info    0x0016f34f      0x48e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_event_generate.o)
+ .debug_info    0x0016f7dd      0x7f6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_front_move.o)
+ .debug_info    0x0016ffd3      0x82c D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_shift.o)
+ .debug_info    0x001707ff     0x148a D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_background_draw.o)
+ .debug_info    0x00171c89      0xca6 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_client_scroll.o)
+ .debug_info    0x0017292f      0xb40 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_scrollbar_find.o)
+ .debug_info    0x0017346f     0x13fb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_animation_complete.o)
+ .debug_info    0x0017486a     0x13eb D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_animation_stop.o)
+ .debug_info    0x00175c55      0x3a8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_brush_default.o)
+ .debug_info    0x00175ffd      0x3cf D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_brush_define.o)
+ .debug_info    0x001763cc     0x12be D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_glyphs_draw.o)
+ .debug_info    0x0017768a     0x11de D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_pixelmap_draw.o)
+ .debug_info    0x00178868     0x111d D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_pixelmap_tile.o)
+ .debug_info    0x00179985     0x1091 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_font_get.o)
+ .debug_info    0x0017aa16     0x1082 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_context_pixelmap_get.o)
+ .debug_info    0x0017ba98      0x5e4 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_dither.o)
+ .debug_info    0x0017c07c      0x48b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_image_decode.o)
+ .debug_info    0x0017c507      0xb04 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_pixel_read_callback_set.o)
+ .debug_info    0x0017d00b      0x619 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_pixel_write_callback_set.o)
+ .debug_info    0x0017d624     0x1a78 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_png_decode.o)
+ .debug_info    0x0017f09c      0x83b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_rle_encode.o)
+ .debug_info    0x0017f8d7      0xbab D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_scrollbar_reset.o)
+ .debug_info    0x00180482      0xc39 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_scrollbar_size_update.o)
+ .debug_info    0x001810bb      0xaec D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_scrollbar_thumb_position_calculate.o)
+ .debug_info    0x00181ba7     0x1226 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_animation_free.o)
+ .debug_info    0x00182dcd      0x1a1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_free_view_get.o)
+ .debug_info    0x00182f6e     0x1267 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_block_move.o)
+ .debug_info    0x001841d5     0x1452 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_canvas_get.o)
+ .debug_info    0x00185627      0x6ed D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_child_clipping_update.o)
+ .debug_info    0x00185d14      0x453 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_context_fill_set.o)
+ .debug_info    0x00186167      0x57e D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_delete.o)
+ .debug_info    0x001866e5      0x46f D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_free.o)
+ .debug_info    0x00186b54     0x10f8 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_pixelmap_get.o)
+ .debug_info    0x00187c4c     0x15fa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_resize.o)
+ .debug_info    0x00189246      0x790 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_widget_scroll_shift.o)
+ .debug_info    0x001899d6     0x13e1 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_window_root_find.o)
+ .debug_info    0x0018adb7     0x1166 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_canvas_block_move.o)
+ .debug_info    0x0018bf1d      0x390 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_image_reader_nearest_palette_color_get.o)
+ .debug_info    0x0018c2ad     0x10fd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_dirty_list_remove.o)
+ .debug_info    0x0018d3aa      0x9bd D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_system_event_remove.o)
+ .debug_info    0x0018dd67      0x157 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_compare.o)
+ .debug_info    0x0018debe      0x157 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\gx\cm4_gcc\libgx.a(gx_utility_rectangle_inside_detect.o)
+ .debug_info    0x0018e015      0x701 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_queue_delete.o)
+ .debug_info    0x0018e716      0x50b D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_identify.o)
+ .debug_info    0x0018ec21      0x5e0 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_thread_resume.o)
+ .debug_info    0x0018f201      0x2aa D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_activate.o)
+ .debug_info    0x0018f4ab      0x366 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_create.o)
+ .debug_info    0x0018f811      0x300 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_deactivate.o)
+ .debug_info    0x0018fb11      0x352 D:\Documentos\DIPLOMADO\GIT\Proyecto_Integrador\Code\DSE_Mabe_Cidec_Project\synergy\ssp\src\framework\el\tx\cm4_gcc\libtx.a(tx_timer_info_get.o)
 
 .debug_abbrev   0x00000000    0x2aade
  .debug_abbrev  0x00000000      0x2cf ./synergy/ssp_supplemental/touch_drivers/touch_panel_i2c_sx8654/touch_panel_i2c_sx8654.o
